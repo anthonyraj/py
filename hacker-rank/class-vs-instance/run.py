@@ -1,5 +1,6 @@
 class Person:
     age = 0;
+    name = "";
     def __init__(self,initialAge):
         # Add some more code to run some checks on initialAge
         if initialAge>0:
@@ -23,14 +24,25 @@ class Person:
         # Increment the age of the person in here
         self.setAge(self.getAge()+1)
 
+#Add a new method dynamically
+def set_name(person,name):
+    person.name = name
+Person.set_name = set_name
+
 #stub code
 t = int(input())
 for i in range(0,t):
-    age = int(input())
+    age = int(input('Input Age:'))
     p = Person(age)
     p.amIOld()
     for j in range(0,3):
         p.yearPasses()
     p.amIOld()
+    name = input('Input Name:')
+    p.set_name(name)
+    print(p.name)
     print("")
+
+
+
             
