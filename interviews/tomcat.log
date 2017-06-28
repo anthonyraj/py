@@ -1,0 +1,15 @@
+Sat Sep 12 09:21:08 2015 -0700 I hosta.purestorage.com sha:d92dc test:6 START "test started"
+Sat Sep 12 09:21:08 2015 -0700 W hosta.purestorage.com sha:d92dc test:6 FAIL "error message"
+Sat Sep 12 09:21:08 2015 -0700 I hosta.purestorage.com sha:d92dc test:7 PASS "success"
+Sat Sep 12 09:21:08 2015 -0700 E hosta.purestorage.com sha:d92dc test:8 ERROR "library libXpm.so not found" SEVERITY10
+Sat Sep 12 09:21:08 2015 -0700 E hostb.purestorage.com sha:d92dc test:9 ERROR "SEVERITY100"'
+Sat Sep 12 09:21:08 2015 -0700 I hostc.purestorage.com sha:d92dc test:6 START "test started"
+Sat Sep 12 09:21:08 2015 -0700 W hostc.purestorage.com sha:d92dc test:6 FAIL "error message"
+Sat Sep 12 09:21:08 2015 -0700 I hostc.purestorage.com sha:d92dc test:7 PASS "success"
+Sat Sep 12 09:21:08 2015 -0700 E hostc.purestorage.com sha:d92dc test:8 ERROR "library libXpm.so not found" SEVERITY10
+Sat Sep 12 09:21:08 2015 -0700 E hostb.purestorage.com sha:d92dc test:9 ERROR "SEVERITY100"'
+Sat Sep 12 09:21:08 2015 -0700 I hostc.purestorage.com sha:d92dc test:6 START "test started"
+Sat Sep 12 09:21:08 2015 -0700 W hostc.purestorage.com sha:d92dc test:6 FAIL "error message"
+Sat Sep 12 09:21:08 2015 -0700 I hostc.purestorage.com sha:d92dc test:7 PASS "success"
+Sat Sep 12 09:21:08 2015 -0700 E hostc.purestorage.com sha:d92dc test:8 ERROR "library libXpm.so not found" SEVERITY10
+Sat Sep 12 09:21:08 2015 -0700 E hostc.purestorage.com sha:d92dc test:9 ERROR "SEVERITY100"'
