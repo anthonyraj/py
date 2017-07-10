@@ -1,4 +1,3 @@
-# Interview Question with Gerald Huff at Tesla
 # Manufacturing Operating System (MOS)
 
 class MOS(object):
