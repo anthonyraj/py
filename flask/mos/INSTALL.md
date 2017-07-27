@@ -6,7 +6,7 @@ http://flask.pocoo.org/docs/0.12/installation/
 * virtualenv venv
 * . venv/bin/activate
 * pip install Flask
-* python> import flask from Flask
+* python> from flask import Flask
 
 
 # Start MOS Microservice
