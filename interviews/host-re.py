@@ -20,7 +20,7 @@ def find_host1(log):
 def find_host2(logfile):
     f = open(logfile)
     host_data = {}
-    for data in f:       
+    for data in f:
         if data.strip() != '':
             line = data.split(' ')
             for element in line:
@@ -37,7 +37,7 @@ def find_host3(logfile):
     f = open(logfile)
     pattern = 'purestorage.com$'
     host_data = {}
-    for data in f:    
+    for data in f:
         if data.strip() != '': #re.search(pattern, data):
             line = data.split(' ')
             for element in line:
@@ -55,7 +55,7 @@ def find_host4(logfile):
     f = open(logfile)
     pattern = '\w+.purestorage.com'
     host_data = {}
-    for data in f:    
+    for data in f:
         if data.strip() != '':
             match = re.search(pattern, data)
             if match:
@@ -67,12 +67,13 @@ def find_host4(logfile):
     f.close()
     print(host_data)
     if len(host_data):
-        return max(host_data, key=(lambda key: host_data[key]))
+        #return max(host_data, key=(lambda key: host_data[key]))
+        return max(host_data)
     else : return 0
 
-    
+
 #m = find_host1(log)
-#print("max occurrance of host",m)    
+#print("max occurrance of host",m)
 #m = find_host2('tomcat.log')
 #print("max occurrance of host",m)
 #m = find_host3('tomcat.log')
